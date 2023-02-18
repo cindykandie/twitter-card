@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+main{
+    width: 360px;
+    border: 1px solid black;padding: 10px;
+}
+.main-profile{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.name-username h2{
+    font-size: 1rem;
+}
+.name-username p{
+    font-size: 0.7rem;
+}
+.profile-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.tweet{
+    margin: 1rem 0;
+}
+.tweet-analytics{
+    border-bottom: 1px solid rgb(31, 30, 30);
+    padding-bottom: 5px;
+    font-size: 0.8rem;
+    display: flex;
+    gap: 25px;
+    font-weight: 700;
+}
+.tweet-analytics li{
+    list-style-type: disc;
+    
+}
+.tweet-analytics li:first-child{
+    list-style-type: none;
+    
+}
+.tweet-analytics li span{
+    font-weight: 400;
+}
+.tweet-actions{
+    padding: 10px 0;
+    font-size: 0.8rem;
+    border-bottom: 1px solid rgb(31, 30, 30);
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-weight: 700;
+}
+.tweet-actions li span{
+    font-weight: 400;
+}
+.tweet-icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.tweet-icons img{
+    width: 20px;
+}
